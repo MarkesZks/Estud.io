@@ -1,3 +1,11 @@
+<%-- 
+    Document   : sobre
+    Created on : 23 de set. de 2023, 18:08:51
+    Author     : GABRIEL
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,10 +23,10 @@
 
         <nav class="navbar-nav">
             <ul class="narvbar-ul">
-                <li class="li"><a href="../pages/servico.html">Serviços</a></li>
-                <li class="li"><a href="../pages/sobre.html">Sobre</a></li>
+                <li class="li"><a href="../pages/servico.jsp">Serviços</a></li>
+                <li class="li"><a href="../pages/sobre.jsp">Sobre</a></li>
                 <li id="linha"></li>
-                <li class="li"><a href="../pages/login.html">Login</a></li>
+                <li class="li"><a href="../pages/login.jsp">Login</a></li>
             </ul>
         </nav>
     </header>

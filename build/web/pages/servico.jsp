@@ -1,3 +1,11 @@
+<%-- 
+    Document   : servico
+    Created on : 23 de set. de 2023, 18:08:28
+    Author     : GABRIEL
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,7 +18,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">    
     <title>Estudy.io</title>
-
 </head>
 <body  >
     <header >
@@ -18,36 +25,28 @@
 
         <nav class="navbar-nav">
             <ul class="narvbar-ul">
-                <li class="li"><a href="./servico.html">Serviços</a></li>
-                <li class="li"><a href="../pages/sobre.html">Sobre</a></li>
-               
+                <li class="li"><a href="../pages/servico.jsp">Serviços</a></li>
+                <li class="li"><a href="../pages/sobre.jsp">Sobre</a></li>
                 <li id="linha"></li>
-                <li class="li"><a href="./login.html">Login</a></li>
+                <li class="li"><a href="../pages/login.jsp">Login</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="wrapper space" >
 
-          <img class="img-padrao" src="../img/" alt="">
+          <img class="img-padrao" src="../img/image 3.png" alt="">
 
           <div class="metodo">
 
-            <div class="grid-cornel">
-
-                <div class="item1"> <textarea none cols="30" rows="5"id="it1"></textarea></div>
-                <div class="item2"><textarea cols="15" rows="5"id="it2"></textarea></div>
-                <div class="item3"><textarea cols="15" rows="5"id="it3"></textarea></div>  
-                <div class="item5"><textarea cols="30" rows="5"  id="it5"></textarea></div>
-
-            </div>
-
-          
-        
+            <ul class="ul-padrao grid">
+                    <li class="narvbar-ul li-padrao" > <a href="../pages/pomodoro/index.html"> Pomodoro</a> </li>
+                    <li class="narvbar-ul li-padrao" ><a href="">FlashCards</a>  </li>
+                    <li class="narvbar-ul li-padrao" > <a href="./ToDoList/index.html">ToDo List</a> </li>
+                    <li class="narvbar-ul li-padrao" > <a href="cornell.jsp">Cornell </a></li>
+            </ul>
+                   
           </div>
-
-
-
     </main>
 
     <footer>
