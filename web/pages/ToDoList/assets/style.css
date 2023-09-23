@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+h1 {
+  color: var(--grad-clr1);
+  text-align: center;
+}
+
+:root {
+  --linear-grad: linear-gradient(to right, #00ced1, #097383);
+  --grad-clr1: #00ced1;
+  --grad-clr2: #097383;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  box-shadow: 0 1px 8px #ddd;
+}
+/* Nav bar */
+.logo-image {
+  max-height: 10%;
+  max-width: 20%; 
+}
+
+.narvbar-ul  {
+  padding: 0 40px;
+  list-style-type: none;
+  display: flex;
+}
+
+.li{
+  padding: 0 40px;
+}
+
+.narvbar-ul a {
+  text-decoration: none;
+  color: #00CBCC;
+  font-size: 20px;
+  letter-spacing: .1rem;
+}
+
+.narvbar-ul a:hover {
+  color: #009092;
+  transition: all .4s ease-in;
+}
+
+#task-container {
+  max-width: 400px;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#task-input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+#add-task-btn {
+  display: block;
+  width: 96%;
+  padding: 10px;
+  background-color: var(--grad-clr1);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+#add-task-btn:hover {
+  background: #fff;
+  color: var(--grad-clr1);
+  transition: .5s ease-in-out; 
+  border: solid 1px var(--grad-clr1);
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.task-item .task-text {
+  flex-grow: 1;
+}
+
+.task-item .delete-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-item .delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+button {   
+  border: 1px solid var(--grad-clr1);
+  background: var(--grad-clr1);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+
+}
