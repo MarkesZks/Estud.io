@@ -9,7 +9,19 @@ package control;
  * @author GABRIEL
  */
 public class Usercontrol {
-    
+    public boolean logar(String email, String Senha) trows ClassNotFoundException{
+        User user = new User();
+        user.setEmail(email);
+        user.setSenha(senha);
+        
+        UserDao userdao = new UserDao();
+        if(userDao.consultar(usuario)==null){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
     
     
 }

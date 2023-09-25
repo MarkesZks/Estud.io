@@ -47,7 +47,6 @@
                             <input type="email" placeholder="Email" name="email"/>
                             <label></label>
                         </div>
-        
                         <div class="linha">
                             <div class="infield col-2">
                                 <input type="password" placeholder="Senha" />
@@ -58,25 +57,20 @@
                                 <label></label>
                             </div>
                         </div>
-                        
-                        
-                            <div class="infield">
+                        <div class="infield">
                                 <input type="text" placeholder="Grau de formação" />
                                 <label></label>
-                            </div>
-        
+                        </div>
                         <div class="linha">
                             <div class="infield  col-2">
                                 <input type="number" placeholder="Tempo de estudo (por dia)" />
                                 <label></label>
                             </div>
-                        
                             <div class="infield col-2 col-2-right">
                                 <input type="number" placeholder="Quantidade de matérias" />
                                 <label></label>
                             </div>
                         </div>
-        
                         <div class="linha">
                             <div class="infield col-2">
                                 <p style="display: inline; font-weight: 500;">Data de inicio</p>
@@ -84,16 +78,13 @@
                                 <input type="date" placeholder="Data de inicio" />
                                 <label></label>
                             </div>
-        
                             <div class="infield col-2 col-2-right">
                                 <p style="display: inline; font-weight: 500;">Data Final</p>
-        
                                 <input type="date" placeholder="Data de inicio" />
                                 <label></label>
                             </div>
-                        </div>
-                                                
-                        <button>Cadastrar</button>
+                        </div>                       
+                        <button type="submit">Cadastrar</button>
                     </form>
                 </div>
                 <div class="form-container sign-in-container">
